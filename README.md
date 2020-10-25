@@ -6,7 +6,7 @@
 cd backend
 node server.js
 
-#Challenge
+#Technical Challenge  
 
 ![Alt Text](https://raw.githubusercontent.com/hanene2030/ceadar-software-developer/main/result.png)
 
