@@ -10,3 +10,9 @@ node server.js
 
 
 ![Alt Text](https://raw.githubusercontent.com/hanene2030/ceadar-software-developer/main/bonus.png)
+
+
+![Alt Text](https://raw.githubusercontent.com/hanene2030/ceadar-software-developer/main/bonus3.png)
+
+
+![Alt Text](https://raw.githubusercontent.com/hanene2030/ceadar-software-developer/main/bonus2.png)
