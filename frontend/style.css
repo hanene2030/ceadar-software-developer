@@ -1,0 +1,124 @@
+body {
+  background-color: #f5f5f5;
+  color: #222831;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+
+}
+/****/
+.node:hover{
+  stroke-width: 7px !important;
+  opacity: 1 !important;
+}
+#bonus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-updating {
+  background-color: #ffc107 !important;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px 0;
+
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+td {
+  height: 50px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+thead tr {
+  background-color: #222831;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+th,
+.content-table td {
+  padding: 12px 15px;
+}
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #e1e3e8;
+}
+tbody tr:nth-of-type(even):hover {
+  background-color: #D3D3D3;
+}
+tbody tr:hover {
+  background-color: #D3D3D3;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #222831;
+}
+
+table > thead > tr > th {
+  cursor: pointer;
+  position: relative;
+}
+
+table > thead > tr > th:after,
+table > thead > tr > th:after,
+table > thead > tr > th:after {
+  content: " ";
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: 10px; /* (right padding / 2) - arrow width */
+  top: 16px; /* ((padding * 2) + line height) - arrow height */
+}
+
+@media (max-width: 700px) {
+  .table {
+  }
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: block;
+    margin: 10px 10px;
+  }
+  .table td {
+    display: block;
+    height: unset;
+    text-align: left;
+  }
+
+  tbody tr:last-of-type {
+    border-bottom: 0px solid transparent;
+  }
+  .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+}
+
+button {
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.sort {
+  width: 100%;
+}
+
+.sort select {
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-left: 20px;
+}

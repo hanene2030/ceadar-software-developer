@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+<h2>Mad money</h2>
+
+<div id="message"></div>
+<div class='sort'><button id="sort">Sort by</button><select>
+  <option value='3'>Default</option>
+  <option value='0'>Time</option>
+  <option value='1'>Headlines</option>
+  <option value='2'>Description</option>
+</select></div>
+
+
+<table id="table" class="table">
+  <thead>
+    <tr> <th >Time</th>
+      <th >Headlines</th>
+      <th>Description</th>
+    </tr>
+    
+  </thead>
+  <tbody id="tbody">
+
+  </tbody>
+</table>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+</html>

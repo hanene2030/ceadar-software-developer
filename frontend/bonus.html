@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Bonus</h2>
+ 
+  <div class="clouds">
+    <div style='display:flex;flex-direction: row;justify-content: space-evenly;width:100%'><h2>After Covid</h2><h2>Before Covid</h2></div>
+  <div style='display:flex;flex-direction: column;' >
+    <div  id="word-cloud1">
+    </div></div>
+
+    <div  >
+      <div  id="word-cloud2">
+      </div></div>
+
+  </div>
+  <div id='bonus' >
+    <div style="width:50%;">
+      <canvas id="canvasId"></canvas>
+    </div>
+  </div>
+   
+
+  </div>
+
+ <h3>Words(frequency> 2) related to 'Apple' in 2019(green circles) -2020(red circles) </h3>
+  <div id="circles"></div>
+
+</body>
+<script src='https://d3js.org/d3.v4.min.js'></script>
+
+<script src="https://www.chartjs.org/dist/2.9.4/Chart.min.js"></script>
+<script src="d3.layout.js"></script>
+<script src="bonus.js"></script>
+</html>
