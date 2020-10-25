@@ -9,4 +9,4 @@ node server.js
 #Bonus
 
 
-![Alt Text](https://github.com/hanene2030/ceadar-software-developer/blob/master/bonus.png)
+![Alt Text](https://raw.githubusercontent.com/hanene2030/ceadar-software-developer/main/bonus.png)
