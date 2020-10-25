@@ -7,6 +7,7 @@ cd backend
 node server.js
 
 #Bonus
+Available under /bonus.html
 
 
 ![Alt Text](https://raw.githubusercontent.com/hanene2030/ceadar-software-developer/main/bonus.png)
